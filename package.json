@@ -1,0 +1,16 @@
+{
+  "name": "e-voting-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-based e-voting system",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "bash run-tests.sh",
+    "test-verbose": "bash run-tests.sh --verbose-rpc"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.15"
+  },
+  "devDependencies": {
+    "truffle": "^5.6.3"
+  }
+}

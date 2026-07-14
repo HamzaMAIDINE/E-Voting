@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+build/
+.next/
+
+# Environment variables
+.env
+.env.local
+
+# Docker volumes
+docker-volumes/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
